@@ -56,8 +56,7 @@ After extensive filtering, datasets were joined on **ZIP code** and **violation/
 
 - **Language:** Python 3
 - **Libraries:** Pandas, NumPy
-- **Environment:** Visual Studio Code (local), Google Cloud VM (deployment)
-- **Input Format:** CSV datasets
+- **Input Format:** Integrated CSV dataset
 - **Output:** Human-readable `.txt` file with rules ranked by interestingness
 
 ---
@@ -85,10 +84,6 @@ A few standout rules from our final output:
 To execute the association rule mining system:
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/nyc-association-rules.git
-    cd nyc-association-rules
-    ```
 
 2. Ensure dependencies are installed:
     ```bash
@@ -108,14 +103,6 @@ To execute the association rule mining system:
 
 ## 📌 Notes
 
-- This project was completed as a solo final project at Columbia University.
-- All code is original and built from scratch — no off-the-shelf ML libraries used.
+- This project was completed as a project at Columbia University.
 - Project demonstrates database theory (Apriori), systems design, and civic data analysis.
-
----
-
-## 📬 Contact
-
-Built by **[Your Name]**  
-For questions or collaboration, please reach out via [your.email@example.com] or visit [your GitHub profile].
 
